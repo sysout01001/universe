@@ -1,0 +1,53 @@
+<!--The universe by Vitor Almeida-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The universe!</title>
+    <style>
+        ::selection {
+            background: #505050;
+        }
+
+        ::-moz-selection {
+            background: #505050;
+        }
+
+        html,
+        body,
+        .container {
+            overflow: hidden;
+            background-color: black;
+            height: 100%;
+        }
+
+        .container {
+            color: white;
+            display: -webkit-flexbox;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            justify-content: center;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>The universe by Vitor Almeida</h1>
+    <div class="container">
+        <pre class="center" id="d"></pre>
+    </div>
+    <script src="donut.js"></script>
+</body>
+
+</html>
